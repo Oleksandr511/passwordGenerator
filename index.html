@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password generator</title>
+</head>
+
+<body>
+    <div class="password_generator">
+        <div class="container">
+            <div class="password">
+                <div class="password_field">
+
+                </div>
+                <div>
+                    <button class="copy_button" onclick="copuFunc()">Copy</button>
+                </div>
+            </div>
+            <div class="parameters">
+                <div class="desc">Password Length</div>
+                <div class="set_length">
+                    <div><input type="number" min="5" max="30" class="length_item" value="5"></div>
+                    <div><input type="range" min="5" max="30" class="length_range" value="5"></div>
+                </div>
+            </div>
+            <div class="checkbox">
+                <div class="add_numb">
+                    <input type="checkbox" class="numb_checkbox">
+                    <label for="number" class="label_numb">Numbers</label>
+                </div>
+                <div class="add_symb">
+                    <input type="checkbox" class="symb_checkbox">
+                    <label for="symbols" class="label_symb">Symbols</label>
+                </div>
+            </div>
+            <div class="button">
+                <button class="btn">Generate</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

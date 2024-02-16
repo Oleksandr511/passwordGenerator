@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: grey;
+}
+
+.password_generator {
+    text-align: center;
+}
+
+.container {
+    background: linear-gradient(#e66465, #9198e5);
+    width: 500px;
+    height: 600px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.password_field {
+    height: 100px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    bottom: 100px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.password .parameters {}
+
+.length_item {
+    width: 50px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.length_range {
+    width: 200px;
+    height: 8px;
+    -webkit-apirance: none;
+    background-color: #c1c3d6;
+    outline: none;
+}
+
+.length_range::-webkit-slider-thumb {
+    cursor: pointer;
+    background-color: #9198e5;
+}
+
+.set_length {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 20px;
+    padding: 50px 0px;
+}
+
+.numb_checkbox, .symb_checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.btn {
+    background: linear-gradient(green, lightgreen);
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: antiquewhite;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.add_symb {
+   
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+.desc {
+    font-size: 20px;
+}
+
+.set_length {
+    padding: 10px 0px;
+}
+
+.copy_button {
+    position: relative;
+    top: -100px;
+    float: right;
+    
+}
+
+.copy_button:hover {
+    cursor: pointer;
+}
